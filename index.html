@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="description" content="Get help with 60-Second Heist controls, purchases, and saves.">
+  <title>Support | 60-Second Heist</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --background: #091423;
+      --text: #edf5fe;
+      --muted: #b3c6d8;
+      --accent: #81edf3;
+      --edge: #304761;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--background); color: var(--text); font: 1rem/1.65 system-ui, sans-serif; }
+    main { width: min(44rem, calc(100% - 2.5rem)); margin: auto; padding: 3rem 0; }
+    header, section { padding: 1.2rem 0; border-bottom: 1px solid var(--edge); }
+    header { padding-top: 0; }
+    h1, h2, p { margin: 0 0 .75rem; }
+    h1 { font-size: clamp(2rem, 7vw, 3rem); line-height: 1.1; }
+    h2 { font-size: 1.25rem; }
+    p { color: var(--muted); }
+    section p:last-child, header p:last-child { margin-bottom: 0; }
+    a { color: var(--accent); overflow-wrap: anywhere; }
+    a:focus-visible { outline: .13rem solid var(--accent); outline-offset: .2rem; }
+    .brand { color: var(--accent); font-weight: 750; letter-spacing: .1em; text-transform: uppercase; }
+    @media (prefers-color-scheme: light) {
+      :root { color-scheme: light; --background: #f8fbff; --text: #142437; --muted: #34465b; --accent: #005d69; --edge: #c2d3e3; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="brand">60-Second Heist</p>
+      <h1>Game support</h1>
+      <p>Get help with controls, purchases, and saves.</p>
+      <nav aria-label="Site"><a href="./privacy.html">Privacy policy</a></nav>
+    </header>
+
+    <section aria-labelledby="controls">
+      <h2 id="controls">Move, rewind, and pause</h2>
+      <p>On a phone or tablet, press and drag the joystick in the lower left to move. Lift your finger to stop. Tap <strong>Rewind</strong> to start a new take. Your ghost repeats your last route and stays where you ended it.</p>
+      <p>You can keep up to two ghosts. Let one hold a pressure plate while you slip through the door. Tap <strong>Pause</strong> to stop the clock. Restart clears your ghosts and starts the vault over.</p>
+      <p>With a keyboard, use WASD or the arrow keys to move, R to rewind, and Esc to pause.</p>
+    </section>
+
+    <section aria-labelledby="purchases">
+      <h2 id="purchases">Unlock the full game</h2>
+      <p>The first three vaults are free on mobile. A one-time purchase unlocks Vaults 04–10 and Bonus Jobs. On Android, Google Play handles the purchase. On iPhone and iPad, the App Store handles it. The game shows the price from your store.</p>
+      <p>If a purchase is pending, you can keep playing the free vaults while you wait for the store to confirm payment.</p>
+    </section>
+
+    <section aria-labelledby="restore">
+      <h2 id="restore">Restore a purchase</h2>
+      <p>Connect to the internet and use the same store account you used to buy the unlock. Open <strong>Settings → Restore purchases</strong>. On Android, use the same Google Play account. On iPhone or iPad, use the same Apple Account and follow any App Store prompt.</p>
+      <p>Google Play and App Store purchases are separate. Restoring the unlock does not restore a saved game.</p>
+    </section>
+
+    <section aria-labelledby="saves">
+      <h2 id="saves">Progress and saves</h2>
+      <p>Your vault progress, times, medals, and settings stay on your device or in the browser you play in. Each edition keeps its own save. Clearing app or browser storage or reinstalling can remove your save.</p>
+      <p>To start over, open <strong>Settings → Reset progress</strong> and confirm. Your store purchase stays on your store account.</p>
+    </section>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">Contact Nimbus Bikes LLC</h2>
+      <p>Email <a href="mailto:nimbusbikespdx@gmail.com">nimbusbikespdx@gmail.com</a>. Tell us your device, operating system, game version if known, and what happened. Please leave out passwords and payment card details.</p>
+    </section>
+  </main>
+</body>
+</html>
